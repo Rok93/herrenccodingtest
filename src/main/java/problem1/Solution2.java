@@ -16,7 +16,6 @@ public class Solution2 { // 병합 정렬 알고리즘을 직접 구현한 풀�
         mergeSortReverseOrder(numbers, 0, length - 1);
 
         tempArr = numbers;
-
     }
 
     private void mergeSortReverseOrder(int[] numbers, int left, int right) {
